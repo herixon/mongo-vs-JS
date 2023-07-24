@@ -1,5 +1,6 @@
 require('dotenv').config(); // 環境変数をロードするためにdotenvモジュールを読み込む
 const express = require('express'); // Expressフレームワークを読み込む
+const app = express();
 const mongoose = require('mongoose'); // Mongooseモジュールを読み込む
 const bodyParser = require('body-parser'); // body-parserモジュールを読み込む
 
