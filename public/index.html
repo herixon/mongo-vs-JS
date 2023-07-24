@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Todo List</h1>
+  
+  <!-- 新しいTodoを作成するための入力フィールドと送信ボタン -->
+  <input type="text" id="todo-input" placeholder="What needs to be done?">
+  <button id="todo-submit">Add Todo</button>
+  
+  <!-- Todoリストを表示するための領域 -->
+  <ul id="todo-list"></ul>
+
+  <!-- 更新と削除を行うためのボタン。最初は非表示に設定 -->
+  <button id="todo-update" style="display: none">Update Todo</button>
+  <button id="todo-delete" style="display: none">Delete Todo</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
